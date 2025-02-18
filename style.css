@@ -1,0 +1,58 @@
+@import url('https://unpkg.com/@tailwindcss/browser@4');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600&display=swap');
+
+/* Background Styling */
+.background {
+    background-image: url('https://images.unsplash.com/photo-1548697143-6a9dc9d9d80f?q=80&w=1776&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card Styling */
+.card {
+    background-color: white;
+    border: 3px solid #ccc;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    width: 20rem;
+    margin: 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Font Styling */
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff69b4;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    
+    font-family: 'Pacifico', cursive;;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #a943a0;
+}
+
+/* Button Styling */
+.btn {
+    padding: 0.5rem 1rem;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+    background-color: #000000;
+    color: white;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ff69b4;
+}
